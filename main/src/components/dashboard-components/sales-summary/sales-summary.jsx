@@ -35,31 +35,10 @@ const SalesSummary = () => {
     return (
         <Card>
             <CardBody>
-                <div className="d-flex align-items-center">
-                    <div>
-                        <CardTitle>Sales Summary</CardTitle>
-                        <CardSubtitle>summary of the month</CardSubtitle>
-                    </div>
-                    <div className="ml-auto d-flex align-items-center">
-                        <ul className="list-inline font-12 dl mr-3 mb-0">
-                            <li className="border-0 p-0 text-info list-inline-item">
-                                <i className="fa fa-circle"></i> Iphone
-								</li>
-                            <li className="border-0 p-0 text-primary list-inline-item">
-                                <i className="fa fa-circle"></i> Ipad
-								</li>
-                        </ul>
-                    </div>
-                </div>
-                <Row>
-                    <Col lg="12">
-                        <div className="campaign ct-charts">
-                            <div className="chart-wrapper" style={{ width: '100%', margin: '0 auto', height: 250 }}>
-                                <Bar data={barData} options={{ maintainAspectRatio: false, legend: { display: true, labels: { fontFamily: "Nunito Sans" } }, scales: { yAxes: [{ gridLines: { display: false }, ticks: { fontFamily: "Nunito Sans" } }], xAxes: [{ gridLines: { display: false }, ticks: { fontFamily: "Nunito Sans" }, barThickness: 15 }] } }} />
-                            </div>
-                        </div>
-                    </Col>
-                </Row>
+                <h1>Empty box yet again</h1>
+                <p>This box might be used for news etc. lorem ipsum john doe lorem ipsum john doe lorem ipsum john doe </p>
+                <p>This box might be used for news etc. lorem ipsum john doe lorem ipsum john doe lorem ipsum john doe </p>
+                <p>This box might be used for news etc. lorem ipsum john doe lorem ipsum john doe lorem ipsum john doe </p>
             </CardBody>
         </Card>
     );

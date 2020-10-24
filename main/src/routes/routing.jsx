@@ -23,13 +23,13 @@ var ThemeRoutes = [
   },
   {
     path: '/ui-components/alert',
-    name: 'Alerts',
+    name: 'Transport',
     icon: 'mdi mdi-comment-processing-outline',
     component: Alerts
   },
   {
     path: '/ui-components/badge',
-    name: 'Badges',
+    name: 'Living',
     icon: 'mdi mdi-arrange-send-backward',
     component: Badges
   },

@@ -49,7 +49,7 @@ const TechCards = () => {
                         <div className="blog-image">
                             <img src={img1} alt="img" className="img-fluid" />
                         </div>
-                        <h4>France’s national research council has ruled.</h4>
+                        <h4>Maybe add some news and other useful stuff</h4>
                         <div className="badge badge-rounded badge-success text-white">
                             Nature
               </div>
