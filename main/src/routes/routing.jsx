@@ -24,7 +24,7 @@ var ThemeRoutes = [
   {
     path: '/ui-components/alert',
     name: 'Transport',
-    icon: 'mdi mdi-comment-processing-outline',
+    icon: 'mdi mdi-bus',
     component: Alerts
   },
   {

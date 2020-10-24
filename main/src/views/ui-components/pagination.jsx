@@ -24,8 +24,8 @@ const PaginationComponent = () => {
                     <Card>
                         <CardTitle className="bg-light border-bottom p-3 mb-0">
                             <i className="mdi mdi-priority-high mr-2"> </i>
-                Pagination
-              </CardTitle>
+                            Pagination
+                        </CardTitle>
 
                         <CardBody className="">
                             <Pagination aria-label="Page navigation example">
@@ -58,8 +58,8 @@ const PaginationComponent = () => {
                     <Card>
                         <CardTitle className="bg-light border-bottom p-3 mb-0">
                             <i className="mdi mdi-priority-high mr-2"> </i>
-                Disabled and active states
-              </CardTitle>
+                            Disabled and active states
+                        </CardTitle>
 
                         <CardBody className="">
                             <Pagination aria-label="Page navigation example">
@@ -92,8 +92,8 @@ const PaginationComponent = () => {
                     <Card>
                         <CardTitle className="bg-light border-bottom p-3 mb-0">
                             <i className="mdi mdi-priority-high mr-2"> </i>
-                Sizing
-              </CardTitle>
+                            Sizing
+                        </CardTitle>
 
                         <CardBody className="">
                             <Pagination size="lg" aria-label="Page navigation example">
@@ -120,8 +120,8 @@ const PaginationComponent = () => {
                     <Card>
                         <CardTitle className="bg-light border-bottom p-3 mb-0">
                             <i className="mdi mdi-priority-high mr-2"> </i>
-                Sizing
-              </CardTitle>
+                            Sizing
+                        </CardTitle>
 
                         <CardBody className="">
                             <Pagination size="sm" aria-label="Page navigation example">

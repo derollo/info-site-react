@@ -22,10 +22,9 @@ const TooltipItem = props => {
                 placement={item.placement}
                 isOpen={tooltipOpen}
                 target={"Tooltip-" + id}
-                toggle={toggle}
-            >
+                toggle={toggle}>
                 Tooltip Content!
-      </Tooltip>
+            </Tooltip>
         </span>
     );
 };

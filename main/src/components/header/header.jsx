@@ -14,9 +14,9 @@ import {
 /* Import images which are need for the HEADER                                    */
 /*--------------------------------------------------------------------------------*/
 import logodarkicon from '../../assets/images/logo-icon.png';
-import logolighticon from '../../assets/images/logo-light-icon.png';
+//import logolighticon from '../../assets/images/logo-light-icon.png';
 import logodarktext from '../../assets/images/logo-text.png';
-import logolighttext from '../../assets/images/logo-light-text.png';
+import logolighttext from '../../assets/images/logo1.png';
 
 const Header = () => {
 
@@ -40,14 +40,7 @@ const Header = () => {
                     {/* Logos Or Icon will be goes here for Light Layout && Dark Layout                */}
                     {/*--------------------------------------------------------------------------------*/}
                     <NavbarBrand href="/">
-                        <b className="logo-icon">
-                            <img src={logodarkicon} alt="homepage" className="dark-logo" />
-                            <img
-                                src={logolighticon}
-                                alt="homepage"
-                                className="light-logo"
-                            />
-                        </b>
+                        
                         <span className="logo-text">
                             <img src={logodarktext} alt="homepage" className="dark-logo" />
                             <img
@@ -70,8 +63,8 @@ const Header = () => {
                 <Collapse
                     className="navbarbg"
                     navbar
-                    data-navbarbg="skin4"
-                >
+                    data-navbarbg="skin4">
+                        
                     <Nav className="float-left" navbar>
                         {/*--------------------------------------------------------------------------------*/}
                         {/* Start Search-box toggle                                                        */}

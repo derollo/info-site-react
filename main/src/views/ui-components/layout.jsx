@@ -43,7 +43,7 @@ const LayoutComponent = () => {
                             <Col xs="auto">
                                 <div className="bg-light p-2 border">
                                     .col-auto - variable width content
-                  </div>
+                                </div>
                             </Col>
                             <Col xs="3">
                                 <div className="bg-light p-2 border">.col-3</div>
@@ -76,7 +76,7 @@ const LayoutComponent = () => {
                             }}>
                                 <div className="bg-light p-2 border">
                                     .col-sm-6 .col-sm-order-2 .col-sm-offset-2
-                  </div>
+                                </div>
                             </Col>
                         </Row>
                         <Row className="mt-3">
@@ -86,7 +86,7 @@ const LayoutComponent = () => {
                             }}>
                                 <div className="bg-light p-2 border">
                                     .col-sm-12 .col-md-6 .col-md-offset-3
-                  </div>
+                                </div>
                             </Col>
                         </Row>
                         <Row className="mt-3">
@@ -96,7 +96,7 @@ const LayoutComponent = () => {
                             }}>
                                 <div className="bg-light p-2 border">
                                     .col-sm .col-sm-offset-1
-                  </div>
+                                </div>
                             </Col>
                             <Col sm={{
                                 'offset': 1,
@@ -104,7 +104,7 @@ const LayoutComponent = () => {
                             }}>
                                 <div className="bg-light p-2 border">
                                     .col-sm .col-sm-offset-1
-                  </div>
+                                </div>
                             </Col>
                         </Row>
                     </Container>
