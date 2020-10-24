@@ -29,8 +29,8 @@ var ThemeRoutes = [
   },
   {
     path: '/ui-components/badge',
-    name: 'Living',
-    icon: 'mdi mdi-arrange-send-backward',
+    name: 'Shopping',
+    icon: 'mdi mdi-store',
     component: Badges
   },
   {

@@ -1,9 +1,58 @@
 import React from 'react';
-import { Badge, Button, Card, CardBody, CardTitle, Row, Col } from 'reactstrap';
+import { Badge, Button, Card, CardBody, CardTitle, Row, Col, CardImg, CardText } from 'reactstrap';
+
+import bus from '../../assets/images/big/bus.jpg';
+import taxi from '../../assets/images/big/taxi.jpg';
+import scooter from '../../assets/images/big/scooter.jpg';
 
 const Badges = () => {
     return (
         <div>
+
+<h5 className="mb-3">Shopping</h5>
+            <Row>
+                <Col xs="12" md="4">
+                    {/* --------------------------------------------------------------------------------*/}
+                    {/* Card-1*/}
+                    {/* --------------------------------------------------------------------------------*/}
+                    <Card>
+                        <CardImg top width="100%" src={bus} />
+                        <CardBody>
+                            <CardTitle>Bus - Föli</CardTitle>
+                            <CardText>Turku Region Public Transport, also known as Föli, is a collaboration between Turku, Kaarina, Raisio, Lieto, Naantali and Rusko.</CardText>
+                            <Button a href="https://foli.fi/en" target="blank">Föli</Button>
+                        </CardBody>
+                    </Card>
+                </Col>
+                <Col xs="12" md="4">
+                    {/* --------------------------------------------------------------------------------*/}
+                    {/* Card-1*/}
+                    {/* --------------------------------------------------------------------------------*/}
+                    <Card>
+                        <CardImg top width="100%" src={taxi} />
+                        <CardBody>
+                            <CardTitle>Taxidata</CardTitle>
+                            <CardText>Taxidata Oy is one of the largest taxi dispatch centers. Taxidata has over 450 taxis in their fleet and they are always open.</CardText>
+                            <Button a href="tel:0210041">Book a taxi</Button>
+                        </CardBody>
+                    </Card>
+                </Col>
+                <Col xs="12" md="4">
+                    {/* --------------------------------------------------------------------------------*/}
+                    {/* Card-1*/}
+                    {/* --------------------------------------------------------------------------------*/}
+                    <Card>
+                        <CardImg top width="100%" src={scooter} />
+                        <CardBody>
+                            <CardTitle>Electrical scooters</CardTitle>
+                            <CardText>There's two scooter companies in Turku that offer easy travel around Turku</CardText>
+                            <Button a href="https://app.adjust.com/48s7k5x?campaign=how_to_voi&adgroup=FI" target="_blank">Voi</Button>&nbsp;
+                            <Button a href="https://app.adjust.com/93rqtl6?redirect_android=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.tier.app&redirect_ios=https%3A%2F%2Fitunes.apple.com%2Fde%2Fapp%2Ftier%2Fid1436140272" target="_blank">Tier</Button>
+                        </CardBody>
+                    </Card>
+                </Col>
+            </Row>
+
             {/* --------------------------------------------------------------------------------*/}
             {/* Row*/}
             {/* --------------------------------------------------------------------------------*/}
@@ -14,18 +63,38 @@ const Badges = () => {
                     {/* --------------------------------------------------------------------------------*/}
                     <Card>
                         <CardTitle className="bg-light border-bottom p-3 mb-0">
-                            <i className="mdi mdi-arrange-send-backward mr-2"> </i>
-                            Badges
+                            <i className="mdi mdi-store mr-2"> </i>
+                            Thrift Shops Turku
                         </CardTitle>
-                        <CardBody className="">
-                            <div>
-                                <h1>Heading <Badge color="secondary">New</Badge></h1>
-                                <h2>Heading <Badge color="secondary">New</Badge></h2>
-                                <h3>Heading <Badge color="secondary">New</Badge></h3>
-                                <h4>Heading <Badge color="secondary">New</Badge></h4>
-                                <h5>Heading <Badge color="secondary">New</Badge></h5>
-                                <h6>Heading <Badge color="secondary">New</Badge></h6>
-                            </div>
+                        <CardBody>
+                            <h6>Near city center</h6>
+                            <ul>
+                                <li>Maanantaimarket</li>
+                                <li>Merkitys 2nd hand shop</li>
+                                <li>Puutorin kirppis</li>
+                                <li>UFF</li>
+                                <li>Dirty Hippies Second Hand & Lifestyle</li>
+                                <li>Ilona Second Hand & Cafe</li>
+                                <li>Pelastusarmeijan kirppitori</li>
+                                <li>VintagEija´s</li>
+                            </ul>
+
+                            <h6>Länsikeskus</h6>
+                            <ul>
+                                <li>Kirppis-Center</li>
+                                <li>Länsiykkösen kirppis</li>
+                                <li>Kontti</li>
+                                <li>Pelastusarmeijan kirpputori</li>
+                            </ul>
+
+                            <h6>Other locations</h6>
+                            <ul>
+                                <li>Kirppiskeskus Hassinen</li>
+                                <li>Laiskan Kirppis</li>
+                                <li>Mimmin kirppis</li>
+                                <li>Manhattanin Kirppis-Center</li>
+                            </ul>
+                            
                         </CardBody>
                     </Card>
                 </Col>
@@ -33,104 +102,25 @@ const Badges = () => {
                     {/* --------------------------------------------------------------------------------*/}
                     {/* Card-2*/}
                     {/* --------------------------------------------------------------------------------*/}
-                    <Card>
-                        <CardTitle className="bg-light border-bottom p-3 mb-0">
-                            <i className="mdi mdi-arrange-send-backward mr-2"> </i>
-                            Badges with Button
-                        </CardTitle>
-                        <CardBody className="">
-                            <div>
-                                <Button color="primary" outline>
-                                    Notifications <Badge color="secondary">1</Badge>
-                                </Button>
-
-                                <Button color="secondary" className="ml-3" outline>
-                                    Notifications <Badge color="secondary">2</Badge>
-                                </Button>
-
-                                <Button color="info" className="ml-3" outline>
-                                    Notifications <Badge color="secondary">3</Badge>
-                                </Button>
-
-                                <Button color="warning" className="ml-3" outline>
-                                    Notifications <Badge color="secondary">4</Badge>
-                                </Button>
-
-                                <Button color="danger" className="ml-3" outline>
-                                    Notifications <Badge color="secondary">5</Badge>
-                                </Button>
-                            </div>
-                        </CardBody>
-                    </Card>
+                    
                 </Col>
                 <Col xs="12" md="6">
                     {/* --------------------------------------------------------------------------------*/}
                     {/* Card-3*/}
                     {/* --------------------------------------------------------------------------------*/}
-                    <Card>
-                        <CardTitle className="bg-light border-bottom p-3 mb-0">
-                            <i className="mdi mdi-arrange-send-backward mr-2"> </i>
-                            Badges with Contextual variations
-                        </CardTitle>
-                        <CardBody className="">
-                            <div>
-                                <Badge color="primary">Primary</Badge>
-                                <Badge color="secondary" className="ml-3">Secondary</Badge>
-                                <Badge color="success" className="ml-3">Success</Badge>
-                                <Badge color="danger" className="ml-3">Danger</Badge>
-                                <Badge color="warning" className="ml-3">Warning</Badge>
-                                <Badge color="info" className="ml-3">Info</Badge>
-                                <Badge color="light" className="ml-3">Light</Badge>
-                                <Badge color="dark" className="ml-3">Dark</Badge>
-                            </div>
-                        </CardBody>
-                    </Card>
+                    
                 </Col>
                 <Col xs="12" md="6">
                     {/* --------------------------------------------------------------------------------*/}
                     {/* Card-4*/}
                     {/* --------------------------------------------------------------------------------*/}
-                    <Card>
-                        <CardTitle className="bg-light border-bottom p-3 mb-0">
-                            <i className="mdi mdi-arrange-send-backward mr-2"> </i>
-                Badges with Pills
-              </CardTitle>
-                        <CardBody className="">
-                            <div>
-                                <Badge color="primary" pill>Primary</Badge>
-                                <Badge color="secondary" className="ml-3" pill>Secondary</Badge>
-                                <Badge color="success" className="ml-3" pill>Success</Badge>
-                                <Badge color="danger" className="ml-3" pill>Danger</Badge>
-                                <Badge color="warning" className="ml-3" pill>Warning</Badge>
-                                <Badge color="info" className="ml-3" pill>Info</Badge>
-                                <Badge color="light" className="ml-3" pill>Light</Badge>
-                                <Badge color="dark" className="ml-3" pill>Dark</Badge>
-                            </div>
-                        </CardBody>
-                    </Card>
+                    
                 </Col>
                 <Col xs="12" md="6">
                     {/* --------------------------------------------------------------------------------*/}
-                    {/* Card-5*/}
+                    {/* Possible Card-5*/}
                     {/* --------------------------------------------------------------------------------*/}
-                    <Card>
-                        <CardTitle className="bg-light border-bottom p-3 mb-0">
-                            <i className="mdi mdi-arrange-send-backward mr-2"> </i>
-                            Badges with Links
-                        </CardTitle>
-                        <CardBody className="">
-                            <div>
-                                <Badge href="" color="primary">Primary</Badge>
-                                <Badge href="" color="secondary" className="ml-3">Secondary</Badge>
-                                <Badge href="" color="success" className="ml-3">Success</Badge>
-                                <Badge href="" color="danger" className="ml-3">Danger</Badge>
-                                <Badge href="" color="warning" className="ml-3">Warning</Badge>
-                                <Badge href="" color="info" className="ml-3">Info</Badge>
-                                <Badge href="" color="light" className="ml-3">Light</Badge>
-                                <Badge href="" color="dark" className="ml-3">Dark</Badge>
-                            </div>
-                        </CardBody>
-                    </Card>
+                    
                 </Col>
             </Row>
             {/* --------------------------------------------------------------------------------*/}
