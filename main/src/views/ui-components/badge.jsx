@@ -1,7 +1,7 @@
 import React from 'react';
 import { Badge, Button, Card, CardBody, CardTitle, Row, Col, CardImg, CardText } from 'reactstrap';
 
-import bus from '../../assets/images/big/bus.jpg';
+import thrift from '../../assets/images/big/thrift.jpg';
 import taxi from '../../assets/images/big/taxi.jpg';
 import scooter from '../../assets/images/big/scooter.jpg';
 
@@ -16,11 +16,11 @@ const Badges = () => {
                     {/* Card-1*/}
                     {/* --------------------------------------------------------------------------------*/}
                     <Card>
-                        <CardImg top width="100%" src={bus} />
+                        <CardImg top width="100%" src={thrift} />
                         <CardBody>
-                            <CardTitle>Bus - Föli</CardTitle>
-                            <CardText>Turku Region Public Transport, also known as Föli, is a collaboration between Turku, Kaarina, Raisio, Lieto, Naantali and Rusko.</CardText>
-                            <Button a href="https://foli.fi/en" target="blank">Föli</Button>
+                            <CardTitle>Thrift shops</CardTitle>
+                            <CardText>A few thrift shops around Turku. You can either visit the stores websites or press "location" to open google maps.</CardText>
+                            <Button a href="#jump-to-page">Thrift shops</Button>
                         </CardBody>
                     </Card>
                 </Col>
@@ -146,10 +146,29 @@ const Badges = () => {
 
                             <h5>Other locations</h5>
                             <ul>
-                                <li>Kirppiskeskus Hassinen</li>
-                                <li>Laiskan Kirppis</li>
-                                <li>Mimmin kirppis</li>
-                                <li>Manhattanin Kirppis-Center</li>
+                                <li><u>Kirppiskeskus Hassinen (Hakakatu 13)</u></li>
+                                <p>A huge flea with enough plucking. At the same time there is also a large hall full of magnificent furniture.
+                                    <br></br><Button className="btn" color="secondary" size="sm" a href="https://www.hassinen.info/" target="blank">Website</Button>&nbsp;
+                                    <Button className="btn" color="secondary" size="sm" a href="https://goo.gl/maps/sg6AdZ8kSNYgx68P7" target="blank">Location</Button>
+                                </p>
+
+                                <li><u>Laiskan Kirppis (Vanha Hämeentie 29)</u></li>
+                                <p>Close to Hassinen's flea. A small but sweet flea market where I last found two lovely sweaters.
+                                    <br></br><Button className="btn" color="secondary" size="sm" a href="http://www.tsemppi.net/kirppis.html" target="blank">Website</Button>&nbsp;
+                                    <Button className="btn" color="secondary" size="sm" a href="https://goo.gl/maps/ZP1hWsP2Hv2SHonG6" target="blank">Location</Button>
+                                </p>
+
+                                <li><u>Mimmin kirppis (Kaurakatu 44)</u></li>
+                                <p>This flea has a bit of that provincial flea atmosphere. Good bargains and moderate prices.
+                                    <br></br><Button className="btn" color="secondary" size="sm" a href="https://mimminkirppis.com/" target="blank">Website</Button>&nbsp;
+                                    <Button className="btn" color="secondary" size="sm" a href="https://goo.gl/maps/SGAJcQvjrpD4wzFs5" target="blank">Location</Button>
+                                </p>
+
+                                <li><u>Manhattanin Kirppis-Center (Pitkämäenkatu 4)</u></li>
+                                <p>A really big traditional flea with over 500 outlets.
+                                    <br></br><Button className="btn" color="secondary" size="sm" a href="https://www.kirppiscenter.fi/" target="blank">Website</Button>&nbsp;
+                                    <Button className="btn" color="secondary" size="sm" a href="https://goo.gl/maps/QihQjQPLT2aDSftx7" target="blank">Location</Button>
+                                </p>
                             </ul>
                             
                         </CardBody>

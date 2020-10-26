@@ -35,14 +35,14 @@ var ThemeRoutes = [
   },
   {
     path: '/ui-components/button',
-    name: 'Buttons',
-    icon: 'mdi mdi-toggle-switch',
+    name: 'Activities',
+    icon: 'mdi mdi-run',
     component: Buttons
   },
   {
     path: '/ui-components/card',
-    name: 'Cards',
-    icon: 'mdi mdi-credit-card-multiple',
+    name: 'Sightseeing',
+    icon: 'mdi mdi-eye',
     component: Cards
   },
   {
