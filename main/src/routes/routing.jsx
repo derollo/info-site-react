@@ -47,8 +47,8 @@ var ThemeRoutes = [
   },
   {
     path: '/ui-components/layout',
-    name: 'Layout',
-    icon: 'mdi mdi-apps',
+    name: 'Living',
+    icon: 'mdi mdi-home',
     component: LayoutComponent
   },
   {

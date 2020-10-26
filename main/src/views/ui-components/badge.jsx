@@ -2,8 +2,8 @@ import React from 'react';
 import { Badge, Button, Card, CardBody, CardTitle, Row, Col, CardImg, CardText } from 'reactstrap';
 
 import thrift from '../../assets/images/big/thrift.jpg';
-import taxi from '../../assets/images/big/taxi.jpg';
-import scooter from '../../assets/images/big/scooter.jpg';
+import mall from '../../assets/images/big/mall.jpg';
+import cafe from '../../assets/images/big/cafe.jpg';
 
 const Badges = () => {
     return (
@@ -29,11 +29,11 @@ const Badges = () => {
                     {/* Card-1*/}
                     {/* --------------------------------------------------------------------------------*/}
                     <Card>
-                        <CardImg top width="100%" src={taxi} />
+                        <CardImg top width="100%" src={mall} />
                         <CardBody>
-                            <CardTitle>Taxidata</CardTitle>
-                            <CardText>Taxidata Oy is one of the largest taxi dispatch centers. Taxidata has over 450 taxis in their fleet and they are always open.</CardText>
-                            <Button a href="tel:0210041">Book a taxi</Button>
+                            <CardTitle>Malls</CardTitle>
+                            <CardText>There's a few malls around Turku, here's a list of them and their locations.</CardText>
+                            <Button a href="tel:0210041">Malls</Button>
                         </CardBody>
                     </Card>
                 </Col>
@@ -42,12 +42,11 @@ const Badges = () => {
                     {/* Card-1*/}
                     {/* --------------------------------------------------------------------------------*/}
                     <Card>
-                        <CardImg top width="100%" src={scooter} />
+                        <CardImg top width="100%" src={cafe} />
                         <CardBody>
-                            <CardTitle>Electrical scooters</CardTitle>
-                            <CardText>There's two scooter companies in Turku that offer easy travel around Turku</CardText>
-                            <Button a href="https://app.adjust.com/48s7k5x?campaign=how_to_voi&adgroup=FI" target="_blank">Voi</Button>&nbsp;
-                            <Button a href="https://app.adjust.com/93rqtl6?redirect_android=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.tier.app&redirect_ios=https%3A%2F%2Fitunes.apple.com%2Fde%2Fapp%2Ftier%2Fid1436140272" target="_blank">Tier</Button>
+                            <CardTitle>Cafés</CardTitle>
+                            <CardText>Here's a list of tripadvisors top 10 cafés in Turku. There are hundred of cafeés but these are the most popualr ones.</CardText>
+                            <Button a href="https://app.adjust.com/48s7k5x?campaign=how_to_voi&adgroup=FI" target="_blank">Cafés</Button>&nbsp;
                         </CardBody>
                     </Card>
                 </Col>
@@ -174,11 +173,51 @@ const Badges = () => {
                         </CardBody>
                     </Card>
                 </Col>
+                
                 <Col xs="12" md="12" sm="12">
                     {/* --------------------------------------------------------------------------------*/}
                     {/* Card-2*/}
                     {/* --------------------------------------------------------------------------------*/}
-                    
+                    <Card>
+                        <CardTitle className="bg-light border-bottom p-3 mb-0"><i className="mdi mdi-store"/>   Malls</CardTitle>
+
+                        <CardBody className="">
+                            <div>
+                                <h4>Kauppakeskus Skanssi</h4>
+                                <p>Skanssi is a shopping center with more than 90 stores & services. Welcome to enjoy every day.
+                                    <br></br><Button className="btn" color="secondary" size="sm" a href="https://www.skanssi.fi/welcome" target="blank">Website</Button>&nbsp;
+                                    <Button className="btn" color="secondary" size="sm" a href="https://g.page/kauppakeskusskanssi?share" target="blank">Location</Button>
+                                </p>
+
+                                <h4>Hansakortteli</h4>
+                                <p>The Hansa shopping center offers excellent fashion, leisure and home products stores and services, not forgetting Stockmann, the leading 
+                                    department store in the region.
+                                    <br></br><Button className="btn" color="secondary" size="sm" a href="http://www.hansakortteli.fi/" target="blank">Website</Button>&nbsp;
+                                    <Button className="btn" color="secondary" size="sm" a href="https://goo.gl/maps/RbV7VhYrepuYwq648" target="blank">Location</Button>    
+                                </p>
+
+                                <h4>Turun Kauppahalli</h4>
+                                <p>Turku Market Hall is the second oldest market hall in Finland, opened in 1896 in the center of Turku. The hall houses both young people and 
+                                    the oldest and most traditional companies in Turku. The building was designed by Professor of Architecture Gustaf Nyström. The roof structures 
+                                    and the wooden parts of the corridor walls of the shops are still the original structures. In the market hall you will find comprehensive quality 
+                                    delicacies for the dining table, but the hall is already an attraction in itself; The market hall belongs to the pearls of Finnish architectural 
+                                    heritage and to the highest protection class as a culturally and historically very valuable object.
+                                    <br></br><Button className="btn" color="secondary" size="sm" a href="http://www.kauppahalli.fi/" target="blank">Website</Button>&nbsp;
+                                    <Button className="btn" color="secondary" size="sm" a href="https://goo.gl/maps/WYiod6nWbSnzHk1L8" target="blank">Location</Button>    
+                                </p>
+
+                                <h4>Kauppakeskus Mylly</h4>
+                                <p>The Mylly shopping center was opened in 2001. It is located along Raisio with good transport connections. The Mylly, which expanded to more 
+                                    than 150 stores and expanded in November 2015, has a floor area of approximately 83,000 square meters. The shopping center serves department 
+                                    stores, sports and leisure shops, clothing stores, restaurants, cafes and various specialty shops.
+                                    <br></br><Button className="btn" color="secondary" size="sm" a href="https://www.kirppiscenter.fi/" target="blank">Website</Button>&nbsp;
+                                    <Button className="btn" color="secondary" size="sm" a href="https://goo.gl/maps/QihQjQPLT2aDSftx7" target="blank">Location</Button>    
+                                </p>
+                            </div>
+                        </CardBody>
+                    </Card>       
+
+
                 </Col>
                 <Col xs="12" md="6">
                     {/* --------------------------------------------------------------------------------*/}
