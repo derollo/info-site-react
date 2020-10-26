@@ -8,6 +8,7 @@ import FirstDashboard from '../views/starter/starter.jsx';
 import Alerts from '../views/ui-components/alert.jsx';
 import Badges from '../views/ui-components/badge.jsx';
 import Buttons from '../views/ui-components/button.jsx';
+import Buttons2 from '../views/ui-components/button2.jsx';
 import Cards from '../views/ui-components/cards.jsx';
 import LayoutComponent from '../views/ui-components/layout.jsx';
 import PaginationComponent from '../views/ui-components/pagination.jsx';
@@ -38,6 +39,12 @@ var ThemeRoutes = [
     name: 'Activities',
     icon: 'mdi mdi-run',
     component: Buttons
+  },
+  {
+    path: '/ui-components/button2',
+    name: 'IM USED AS A CHEATSHEET',
+    icon: 'mdi mdi-run',
+    component: Buttons2
   },
   {
     path: '/ui-components/card',
