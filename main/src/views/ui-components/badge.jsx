@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge, Button, Card, CardBody, CardTitle, Row, Col, CardImg, CardText } from 'reactstrap';
+import { Button, Card, CardBody, CardTitle, Row, Col, CardImg, CardText } from 'reactstrap';
 
 import thrift from '../../assets/images/big/thrift.jpg';
 import mall from '../../assets/images/big/mall.jpg';
@@ -20,7 +20,7 @@ const Badges = () => {
                         <CardBody>
                             <CardTitle>Thrift shops</CardTitle>
                             <CardText>A few thrift shops around Turku. You can either visit the stores websites or press "location" to open google maps.</CardText>
-                            <Button a href="#jump-to-page">Thrift shops</Button>
+                            <Button a href="https://www.kirpputorihaku.com/kirpputori/turku" target="blank">Thrift shops</Button>
                         </CardBody>
                     </Card>
                 </Col>
@@ -33,7 +33,7 @@ const Badges = () => {
                         <CardBody>
                             <CardTitle>Malls</CardTitle>
                             <CardText>There's a few malls around Turku, here's a list of them and their locations.</CardText>
-                            <Button a href="tel:0210041">Malls</Button>
+                            <Button a href="https://www.google.com/search?client=firefox-b-d&q=kauppakeskus+turku" target="blank">Malls</Button>
                         </CardBody>
                     </Card>
                 </Col>
@@ -46,7 +46,7 @@ const Badges = () => {
                         <CardBody>
                             <CardTitle>Cafés</CardTitle>
                             <CardText>Here's a list of tripadvisors top 10 cafés in Turku. There are hundred of cafeés but these are the most popualr ones.</CardText>
-                            <Button a href="https://app.adjust.com/48s7k5x?campaign=how_to_voi&adgroup=FI" target="_blank">Cafés</Button>&nbsp;
+                            <Button a href="https://www.tripadvisor.fi/Restaurants-g189949-c8-Turku_Southwest_Finland.html" target="_blank">Cafés</Button>&nbsp;
                         </CardBody>
                     </Card>
                 </Col>
@@ -66,7 +66,7 @@ const Badges = () => {
                             Thrift Shops Turku
                         </CardTitle>
                         <CardBody>
-                            <h5>Near city center</h5>
+                            <h5 id="jump">Near city center</h5>
                             <ul>
                                 <li><u>Maanantaimarket (Kristiinankatu 6)</u></li>
                                 <p>The best second hand shop in the city (or maybe the whole of Finland?). The atmosphere here is just wonderful! There should be more visually 
@@ -212,6 +212,97 @@ const Badges = () => {
                                     stores, sports and leisure shops, clothing stores, restaurants, cafes and various specialty shops.
                                     <br></br><Button className="btn" color="secondary" size="sm" a href="https://www.kirppiscenter.fi/" target="blank">Website</Button>&nbsp;
                                     <Button className="btn" color="secondary" size="sm" a href="https://goo.gl/maps/QihQjQPLT2aDSftx7" target="blank">Location</Button>    
+                                </p>
+                            </div>
+                        </CardBody>
+                    </Card>       
+
+
+                </Col>
+
+                
+
+                {/* --------------------------------------------------------------------------------*/}
+                {/* Cafés*/                                                                          }
+                {/* --------------------------------------------------------------------------------*/}
+                <Col xs="12" md="12" sm="12">
+                    <Card>
+                        <CardTitle className="bg-light border-bottom p-3 mb-0"><i className="mdi mdi-coffee"/>   Cafés</CardTitle>
+
+                        <CardBody className="">
+                            <div>
+                                <h4>Cafe Art</h4>
+                                <p>Turku Coffee Roastery coffee, Teepolu tea or the products in our display case can also be bought, for example, as gifts, gifts or for your 
+                                    own celebrations.
+                                    <br></br><Button className="btn" color="secondary" size="sm" a href="https://www.cafeart.fi/" target="blank">Website</Button>&nbsp;
+                                    <Button className="btn" color="secondary" size="sm" a href="https://goo.gl/maps/sxvZAPvkwPq8AKES6" target="blank">Location</Button>
+                                </p>
+
+                                <h4>Bean Bar</h4>
+                                <p>Bean Bar is a café in the heart of Turku, which offers delicious and tasty drinks such as a wide range of different coffees, teas, cocoa, 
+                                    smoothies and much more.
+                                    <br></br><Button className="btn" color="secondary" size="sm" a href="https://www.beanbar.fi/" target="blank">Website</Button>&nbsp;
+                                    <Button className="btn" color="secondary" size="sm" a href="https://goo.gl/maps/Q4osd3KxFhHfG28h6" target="blank">Location</Button>    
+                                </p>
+
+                                <h4>Cafe Qwensel</h4>
+                                <p>Qwensel House is an 18th-century bourgeois house that was spared the Turku fire in 1827.
+                                    The house was formerly called the Corner of the Lord because Peter Brahe zoned the district court of appeal for officials, county leaders, and 
+                                    nobles. Qwensel's house is named after its first well-known owner, Wilhelm Johan Qwensel, who bought the plot in 1695. He arrived in Turku 
+                                    from Stockholm to work as an appellant in the Court of Appeal.
+                                    <br></br><Button className="btn" color="secondary" size="sm" a href="https://www.cafeqwensel.fi/" target="blank">Website</Button>&nbsp;
+                                    <Button className="btn" color="secondary" size="sm" a href="https://goo.gl/maps/7TDTyRSK5ntVvssx5" target="blank">Location</Button>    
+                                </p>
+
+                                <h4>Anniskelukahvila Tiirikkala</h4>
+                                <p>Hundreds of years ago, in a fine area near the Aura River, a liter leaned against a fence. No one remembers the exact time when the liter-wide 
+                                    wall boards were erected, but they are still standing and standing cool, gesturing against the fence.
+                                    The liquor café Tiirikkala brought Nordic flavors and a strong atmosphere inside these ancient walls. Tiirikkala is everything you need.
+                                    <br></br><Button className="btn" color="secondary" size="sm" a href="https://www.tiirikkala.fi/" target="blank">Website</Button>&nbsp;
+                                    <Button className="btn" color="secondary" size="sm" a href="https://goo.gl/maps/4gJYjeqLkzrPsZV47" target="blank">Location</Button>    
+                                </p>
+
+                                <h4>Fabbe's Cafe</h4>
+                                <p>Fabbes Café is a place for you. Come as you are, because this little corner café is meant for everyone. We serve lunch Mon-Fri from 11 am and we 
+                                    always have one meat, one vegetarian and one vegan option. Our staff is always in a good mood and every customer gets a free smile when visiting 
+                                    us!
+                                    <br></br><Button className="btn" color="secondary" size="sm" a href="https://fabbescafe.com/en/tervetuloa-valkommen-english/" target="blank">Website</Button>&nbsp;
+                                    <Button className="btn" color="secondary" size="sm" a href="https://g.page/FabbesCafe?share" target="blank">Location</Button>    
+                                </p>
+
+                                <h4>Kahvila Gaggui</h4>
+                                <p> CHANGE THIS FFS Tervetuloo meijä kaffelaa, Gaggui Kaffelaa. Me tehrää kaik meijä kaffela tuatteet iha ite, ain marmeladist sokerimassaa saakka. 
+                                    Kaffetki me sul jauhetaa suaraa pavuist paika pääl, ni saat suaraa kuppiis  tuaret vast jauhettuu kaffet. Et tul säki vaa maistaa gaggui ja kaffet, 
+                                    nährää kaffelas!
+                                    <br></br><Button className="btn" color="secondary" size="sm" a href="http://www.gaggui.com/" target="blank">Website</Button>&nbsp;
+                                    <Button className="btn" color="secondary" size="sm" a href="https://goo.gl/maps/a8R3Ltk45Tav1BGa7" target="blank">Location</Button>    
+                                </p>
+
+                                <h4>Cafe Carré</h4>
+                                <p>Atmospheric café in the heart of Turku. The best light savory and sweetest delicacies, as well as salads. Also included.
+                                    <br></br><Button className="btn" color="secondary" size="sm" a href="https://carre.fi/" target="blank">Website</Button>&nbsp;
+                                    <Button className="btn" color="secondary" size="sm" a href="https://goo.gl/maps/1qaH11CP1wJjyb358" target="blank">Location</Button>    
+                                </p>
+
+                                <h4>Latte Cafe</h4>
+                                <p>Welcome to Latte Cafe's website and webshop! It's all about good coffee and tasty food! Everything we have on display in the list in our coffee shops 
+                                    is also available for you to order and enjoy in your home or office! And the list goes on - we have dozens of surprises and specialities ready for you! 
+                                    We do catering for bigger and smaller events.
+                                    <br></br><Button className="btn" color="secondary" size="sm" a href="http://lattecafe.biz/" target="blank">Website</Button>&nbsp;
+                                    <Button className="btn" color="secondary" size="sm" a href="https://goo.gl/maps/rdZ1EwqtaNJ2J7bH6" target="blank">Location</Button>    
+                                </p>
+
+                                <h4>Café Sirius</h4>
+                                <p>Café Sirius serves savory and sweet, specialty coffees, tea and cold drinks. Our selection also includes Mövenpick ice cream. We serve lunch from Monday 
+                                    to Friday from 11 am to 2 pm or until the food runs out. Every day also vegan options.
+                                    <br></br><Button className="btn" color="secondary" size="sm" a href="https://www.cafesirius.fi/" target="blank">Website</Button>&nbsp;
+                                    <Button className="btn" color="secondary" size="sm" a href="https://goo.gl/maps/PUABYYFuNnmz5X2FA" target="blank">Location</Button>    
+                                </p>
+
+                                <h4>Cafe Fontana</h4>
+                                <p>A laid-back meeting spot for friends with a captivating assortment for gourmands, all in the heart of Turku.
+                                    <br></br><Button className="btn" color="secondary" size="sm" a href="https://www.fontana.fi/en/" target="blank">Website</Button>&nbsp;
+                                    <Button className="btn" color="secondary" size="sm" a href="https://goo.gl/maps/XSkSFdMMz7ec7WbJ8" target="blank">Location</Button>    
                                 </p>
                             </div>
                         </CardBody>
