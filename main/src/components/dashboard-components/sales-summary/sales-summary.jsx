@@ -35,10 +35,8 @@ const SalesSummary = () => {
     return (
         <Card>
             <CardBody>
-                <h1>Empty box yet again</h1>
-                <p>This box might be used for news etc. lorem ipsum john doe lorem ipsum john doe lorem ipsum john doe </p>
-                <p>This box might be used for news etc. lorem ipsum john doe lorem ipsum john doe lorem ipsum john doe </p>
-                <p>This box might be used for news etc. lorem ipsum john doe lorem ipsum john doe lorem ipsum john doe </p>
+                <h1>New in town</h1>
+                <p>The best</p>
             </CardBody>
         </Card>
     );

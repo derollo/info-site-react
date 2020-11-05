@@ -2793,14 +2793,14 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
     color: #fff;
-    background-color: #8898aa;
-    border-color: #8898aa;
+    background-color: #00acef;
+    border-color: #009bd8;
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .btn-secondary:hover {
     color: #fff;
-    background-color: #72859a;
+    background-color: #00acef;
     border-color: #6a7e95;
 }
 
@@ -2812,7 +2812,7 @@ fieldset:disabled a.btn {
 .btn-secondary.disabled,
 .btn-secondary:disabled {
     color: #fff;
-    background-color: #8898aa;
+    background-color: #006ae4;
     border-color: #8898aa;
 }
 
