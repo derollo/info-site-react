@@ -2801,7 +2801,7 @@ fieldset:disabled a.btn {
 
 .btn-secondary:hover {
     color: #fff;
-    background-color: #72859a;
+    background-color: #00acef;
     border-color: #6a7e95;
 }
 
@@ -2813,7 +2813,7 @@ fieldset:disabled a.btn {
 .btn-secondary.disabled,
 .btn-secondary:disabled {
     color: #fff;
-    background-color: #8898aa;
+    background-color: #006ae4;
     border-color: #8898aa;
 }
 
