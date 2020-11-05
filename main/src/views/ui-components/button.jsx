@@ -12,7 +12,7 @@ import {
     CardDeck
 } from 'reactstrap';
 
-import img1 from '../../assets/images/big/img1.jpg';
+import img1 from '../../assets/images/big/gym.jpg';
 import img2 from '../../assets/images/big/img2.jpg';
 import img3 from '../../assets/images/big/img3.jpg';
 
@@ -49,28 +49,38 @@ const Buttons = () => {
                 <Card>
                     <CardImg top width="100%" src={img1} alt="Card image cap" />
                     <CardBody>
-                        <CardTitle>Card title</CardTitle>
-                        <CardSubtitle>Card subtitle</CardSubtitle>
-                        <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
-                        <Button>Button</Button>
+                        <CardTitle>Sport facilities</CardTitle>
+                        <CardText>Take a look at all the sport facilities Turku has to offer. Here you can find gyms, sport centres, trails, routes and much more.</CardText>
+                        <div className="btn-container">
+                                <Button className="btn" a href="https://www.turku.fi/en/culture-and-sports/sports/sports-facilities/gyms" target="blank">Gyms</Button> &nbsp;
+                                <Button className="btn" a href="https://www.turku.fi/en/culture-and-sports/sports/sports-facilities/courts-and-fields" target="_blank">Courts & fields</Button> &nbsp;
+                                <Button className="btn" a href="https://www.turku.fi/en/culture-and-sports/sports/sports-facilities/other-outdoor-sports-facilities" target="_blank">Outdoor sports</Button> &nbsp;
+                                <Button className="btn" a href="https://www.turku.fi/en/culture-and-sports/sports/sports-facilities/sports-centres" target="_blank">Sport centres</Button> &nbsp;
+                                <Button className="btn" a href="https://www.turku.fi/en/culture-and-sports/sports/sports-facilities/swimming-places-and-water-sport" target="_blank">Water activities</Button>
+                        </div>
                     </CardBody>
                 </Card>
                 <Card>
                     <CardImg top width="100%" src={img2} alt="Card image cap" />
                     <CardBody>
-                        <CardTitle>Card title</CardTitle>
-                        <CardSubtitle>Card subtitle</CardSubtitle>
-                        <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
-                        <Button>Button</Button>
+                        <CardTitle>Outdoors and more</CardTitle>
+                        <CardText>There's plenty of outdoor activities in Turku, parks, playgrounds and much more. Visit the page Kiss My Turku to find even more activities in Turku and Turku Archipelago.</CardText>
+                        <div className="btn-container">
+                                <Button className="btn" a href="https://www.google.com/maps/search/turku+parks/@60.4331913,22.2533926,14z" target="_blank">Turku Parks</Button> &nbsp;
+                                <Button className="btn" a href="https://www.google.com/maps/search/turku+playgrounds/@60.4320478,22.2570833,14z/data=!3m1!4b1?hl=sv" target="_blank">Playgrounds website</Button> &nbsp;
+                                <Button className="btn" a href="https://kissmyturku.com/" target="_blank">Kiss My Turku</Button>
+                        </div>
                     </CardBody>
                 </Card>
                 <Card>
                     <CardImg top width="100%" src={img3} alt="Card image cap" />
                     <CardBody>
-                        <CardTitle>Card title</CardTitle>
-                        <CardSubtitle>Card subtitle</CardSubtitle>
-                        <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
-                        <Button>Button</Button>
+                        <CardTitle>Adventures</CardTitle>
+                        <CardText>Check out the different adventure parks, escape rooms, discogolf and other adventures activities. Kupittaa adventure park and Flowpark are two of the most popular activities on tripadvisor.</CardText>
+                        <div className="btn-container">
+                                <Button className="btn" a href="https://www.tripadvisor.com/Attractions-g189949-Activities-c56-Turku_Southwest_Finland.html" target="_blank">Tripadvisor</Button> &nbsp;
+                                <Button className="btn" a href="https://www.visitturku.fi/en/fun-and-well-being-adventures-110494" target="_blank">Visit Turku adventures</Button> &nbsp;
+                        </div>
                     </CardBody>
                 </Card>
             </CardDeck>
