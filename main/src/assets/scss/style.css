@@ -2793,9 +2793,10 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
     color: #fff;
-    background-color: #8898aa;
-    border-color: #8898aa;
+    background-color: #00acef;
+    border-color: #0da7e4;
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    margin-top: 2%;
 }
 
 .btn-secondary:hover {
@@ -3477,6 +3478,7 @@ fieldset:disabled a.btn {
     font-size: 1.09375rem;
     line-height: 1.5;
     border-radius: 4px;
+    margin-top: 2%;
 }
 
 .btn-sm,
@@ -3886,6 +3888,15 @@ input[type="button"].btn-block {
     position: absolute;
     clip: rect(0, 0, 0, 0);
     pointer-events: none;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 75%;
+    margin: auto;
 }
 
 .input-group {
@@ -4625,6 +4636,14 @@ input[type="button"].btn-block {
     background-size: 100% 100%;
 }
 
+.transCard {
+    height: 100%;
+}
+
+.shopCol {
+    height: 450px;
+}
+
 @media (max-width: 575.98px) {
 
     .navbar-expand-sm>.container,
@@ -4674,6 +4693,9 @@ input[type="button"].btn-block {
     .navbar-expand-md>.container-fluid {
         padding-right: 0;
         padding-left: 0;
+    }
+    .col-12 {
+        margin-top: 3%;
     }
 }
 

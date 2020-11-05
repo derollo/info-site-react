@@ -15,12 +15,12 @@ const Badges = () => {
                     {/* --------------------------------------------------------------------------------*/}
                     {/* Card-1*/}
                     {/* --------------------------------------------------------------------------------*/}
-                    <Card>
+                    <Card className="transCard">
                         <CardImg top width="100%" src={thrift} />
                         <CardBody>
                             <CardTitle>Thrift shops</CardTitle>
                             <CardText>A few thrift shops around Turku. You can either visit the stores websites or press "location" to open google maps.</CardText>
-                            <Button a href="https://www.kirpputorihaku.com/kirpputori/turku" target="blank">Thrift shops</Button>
+                            <Button a href="https://www.kirpputorihaku.com/kirpputori/turku" target="blank"> Thrift shops</Button>
                         </CardBody>
                     </Card>
                 </Col>
@@ -28,25 +28,25 @@ const Badges = () => {
                     {/* --------------------------------------------------------------------------------*/}
                     {/* Card-1*/}
                     {/* --------------------------------------------------------------------------------*/}
-                    <Card>
+                    <Card className="transCard">
                         <CardImg top width="100%" src={mall} />
                         <CardBody>
                             <CardTitle>Malls</CardTitle>
                             <CardText>There's a few malls around Turku, here's a list of them and their locations.</CardText>
-                            <Button a href="https://www.google.com/search?client=firefox-b-d&q=kauppakeskus+turku" target="blank">Malls</Button>
+                            <Button a href="https://www.google.com/maps?client=firefox-b-d&q=kauppakeskus+turku&um=1&ie=UTF-8&sa=X&ved=2ahUKEwigmszt--rsAhUix4sKHYZmC0MQ_AUoAXoECA0QAw" target="blank">Malls</Button>
                         </CardBody>
                     </Card>
                 </Col>
-                <Col xs="12" md="4">
+                <Col xs="12" md="4" className="shopCol">
                     {/* --------------------------------------------------------------------------------*/}
                     {/* Card-1*/}
                     {/* --------------------------------------------------------------------------------*/}
-                    <Card>
+                    <Card className="transCard">
                         <CardImg top width="100%" src={cafe} />
                         <CardBody>
-                            <CardTitle>Cafés</CardTitle>
+                            <CardTitle>Cafés & Restaurants</CardTitle>
                             <CardText>Here's a list of tripadvisors top 10 cafés in Turku. There are hundred of cafeés but these are the most popualr ones.</CardText>
-                            <Button a href="https://www.tripadvisor.fi/Restaurants-g189949-c8-Turku_Southwest_Finland.html" target="_blank">Cafés</Button>&nbsp;
+                            <Button a href="https://www.tripadvisor.fi/Restaurants-g189949-c8-Turku_Southwest_Finland.html" target="_blank">Cafés & Restaurants</Button>&nbsp;
                         </CardBody>
                     </Card>
                 </Col>
@@ -328,7 +328,7 @@ const Badges = () => {
                     {/* --------------------------------------------------------------------------------*/}
                     
                 </Col>
-            </Row>
+        </Row>
             {/* --------------------------------------------------------------------------------*/}
             {/* Row*/}
             {/* --------------------------------------------------------------------------------*/}
